@@ -58,6 +58,9 @@ class Form extends Component {
 						<option value="angular">Angular</option>
 						<option value="vue">Vue</option>
 						<option value="JS">Javascript</option>
+						<option value="React JS">Javascript</option>
+						<option value="	Vanila JS">Javascript</option>
+						<option value="	Vanila JS">Javascript</option>
 					</select>
 				</div>
 				<button type="submit">Submit</button>
