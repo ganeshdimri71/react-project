@@ -22,7 +22,17 @@ import React from "react";
 /* import Inline from "./components/Inline"; */
 /* import "./components/appStyles.css"; */
 /* import styles from "./components/appStyles.module.css"; */
-import Form from "./components/Form";
+// import LifeCycleA from "./components/LifeCycleA";
+// import FragmentDemo from "./components/FragmentDemo";
+// import Table from "./components/Table";
+// import PurComponent from "./components/PureComponent";
+// import ParentComp from "./components/ParentComp";
+// import RefsDemo from "./components/RefsDemo";
+import FocusInput from "./components/FocusInput";
+
+
+
+/* import Form from "./components/Form"; */
 
 class App extends React.Component {
 	render() {
@@ -62,7 +72,14 @@ class App extends React.Component {
 				{/* <Inline /> */}
 				{/* <h1 className="error">Error</h1>
 				<h1 className={styles.success}>Success</h1>   */}
-				<Form/>
+				{/* <Form/> */}
+				{/* <LifeCycleA /> */}
+				{/* <FragmentDemo /> */}
+				{/* <Table /> */}
+				{/* <PureComponent /> */}
+				{/* <ParentComp /> */}
+				{/* <RefsDemo /> */}
+				<FocusInput />
 			</div>
 		);
 	}
