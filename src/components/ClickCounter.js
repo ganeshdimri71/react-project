@@ -20,7 +20,9 @@ class ClickCounter extends Component {
 	render() {
 		return (
 			<div>
-                <button onClick={ this.incrementCount }>Clicked { this.state.count } { this.state.count}</button>
+				<button onClick={this.incrementCount}>
+					Clicked {this.state.count}{" "}
+				</button>
 			</div>
 		);
 	}
