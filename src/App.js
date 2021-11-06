@@ -33,7 +33,14 @@ import React from "react";
 // import PortalDemo from "./components/PortalDemo";
 // import Hero from "./components/Hero";
 // import ErrorBoundary from './components/ErrorBoundary';
-import ClickCounter from "./components/ClickCounter";
+// import ClickCounter from "./components/ClickCounter";
+// import HoverCounter from "./components/HoverCounter";
+// import ClickCounterTwo from "./components/ClickCounterTwo";
+// import HoverCounterTwo from "./components/HoverCounterTwo";
+// // import User from "./components/User";
+// import Counterr from "./components/Counterr";
+import ComponentC from './components/ComponentC'
+import { UserProvider } from './components/UserContext';
 
 
 
@@ -98,10 +105,50 @@ class App extends React.Component {
 				<ErrorBoundary>
 					<Hero heroName="Joker" />
 				</ErrorBoundary> */}
-
+				{/* 
 				<ClickCounter/>
+				<HoverCounter/> */}
 
-				
+				{/* <ClickCounter name='Vishwas'/>
+				<HoverCounter name='Vishwas' /> */}
+				{/* <ClickCounterTwo />
+				<HoverCounterTwo /> */}
+				{/* <User /> */}
+				{/* 1 */}
+				{/* <User name='Vishwas' /> */}
+				{/* 2 */}
+				{/* <User name={()=>'Vishwas'} /> */}
+				{/* 3 */}
+				{/* <User render={(isLogedIn)=> isLogedIn ? 'Vishwas' : 'Guests'} /> */}
+				{/* <Counterr render={(count, incrementCount) => {
+					return <ClickCounterTwo count={count} incrementCount={incrementCount}/>
+				} }/>
+				<Counterr render={(count, incrementCount) => {
+					return <HoverCounterTwo count={count} incrementCount={incrementCount}/>
+				} }/> */}
+				{/* 1 */}
+				{/* <Counterr>
+					{(count, incrementCount) => {
+						return <ClickCounterTwo count={count} incrementCount={incrementCount} />
+					}}
+				</Counterr>
+				<Counterr>
+					{(count, incrementCount) => {
+						return <HoverCounterTwo count={count} incrementCount={incrementCount} />
+					}}
+				</Counterr> */}
+				{/* <UserProvider value='Vishwas'>
+					<ComponentC />
+				</UserProvider> */}
+				{/* 1 */}
+				{/* <ComponentC /> */}
+				{/* 2 */}
+				<UserProvider value='Vishwas'>
+					<ComponentC />
+				</UserProvider>
+
+
+
 			</div>
 		);
 	}
